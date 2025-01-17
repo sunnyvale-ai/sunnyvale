@@ -68,7 +68,7 @@ Format each relationship as ("relationship"{tuple\_delimiter}<source\_entity>{tu
 \----------------------------------------------------------------------------------------------------------------
 
 Taking millions of tweets from a certain user as an example, the knowledge graph generated using the above code is shown in the diagram below. Each circle represents an entity, and the lines connecting the circles represent the relationships between two entities. Entities can be a person, an object, an event, or even an organization.
-
+![knowledgegraph](/images/knowledgegraph.png)
 The knowledge graph built from the data of a user can accurately represent their knowledge structure, enabling the AI agent to better mimic their language style and knowledge base for content generation. To make the knowledge graph effectively usable by the AI agent, it needs to be injected into a vectorized database. The specific code for this process is as follows:
 
 \----------------------------------------------------------------------------------------------------------------
